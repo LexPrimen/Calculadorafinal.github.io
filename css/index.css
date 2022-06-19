@@ -1,0 +1,151 @@
+
+@media screen and (min-width:286px) {
+  
+
+    .div{
+        background: #1d1d20;
+        width: 100%;
+        margin-left: -1000px;
+        max-width: 1600px;
+        border-radius: 1em;
+        padding: 3em 1.5em;
+        text-align: center;
+        flex-wrap: wrap;
+        display: flex;
+        
+        
+    }
+    
+
+    
+    
+}
+
+
+
+
+.letracolor{
+    color: aliceblue
+}
+
+
+    
+
+
+.div{
+    background: #1d1d20;
+    width: 100%;
+    margin-left: 1px;
+    max-width: 1600px;
+    border-radius: 1em;
+    padding: 3em 1.5em;
+    text-align: center;
+    
+    
+}
+
+
+.boton{
+    background-color: rgb(80, 30, 146);
+}
+
+
+body
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #27282c;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+
+a
+{
+    position: relative;
+    background: #444;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    transition: 2s;
+    margin: 2px;
+
+}
+
+a:hover
+{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 55px var(--clr);
+}
+a::before
+{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+
+}
+a span
+{
+    position: relative;
+    z-index: 1;
+    
+}
+
+a i
+{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+a i::before
+{
+ content: '' ;
+ position: absolute;
+ top: -3.5px;
+ left: 80%;
+ width: 10px;
+ height: 5px;
+ border: 2px solid var(--clr);
+ background: #27282c;
+ transform: translate(-50%);
+ transition: 0.5s;
+
+}
+
+a:hover i::before
+{
+    width: 20px;
+    left: 20%;
+}
+
+
+a i::after
+{
+ content: '' ;
+ position: absolute;
+ bottom: -3.5px;
+ left: 20%;
+ width: 10px;
+ height: 5px;
+ border: 2px solid var(--clr);
+ background: #27282c;
+ transform: translate(-50%);
+ transition: 0.5s;
+
+}
+
+a:hover i::after
+{
+    width: 20px;
+    left: 80%;
+}

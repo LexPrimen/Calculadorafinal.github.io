@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="body">
+     
+     <div id="div">
+        <form id="form" class="div">
+
+
+         <input type="number" placeholder="Numero #1" id="valor1" >
+         
+         <input type="number" placeholder="Numero #2" id="valor2" >
+         
+       
+         
+         <a type="button" onclick="sumar();" href="#" style="--clr:#c90808"><span> sumar </span> <i></i> </a>
+         <a type="button" onclick="resta();" href="#" style="--clr:#f7e700"><span> resta </span> <i></i> </a>
+         <a type="button" onclick="multiplicar();" href="#" style="--clr:#00f700"><span> Multiplicar </span> <i></i> </a>
+         <a type="button" onclick="dividir();" href="#" style="--clr:#00ffff"><span> dividir </span> <i></i> </a>
+         
+        
+        
+         
+        </div>
+         <p class="letracolor">el resultado es: <span  id="resultado"></span></p>
+         
+         
+         <button type="reset"  onclick="limpiar()"id="limpiar">Limpiar Calculadora</button>
+       
+         
+
+        </form>
+     
+
+     
+
+     <script src="./js/index.js"></script>
+
+</body>
+</html>
